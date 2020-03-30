@@ -91,9 +91,10 @@ function render_page(c) {
   return '<!DOCTYPE html><html><head><meta charset="utf-8">'
        + '<title>user.js</title><style>' + s + '</style></head><body>'
        + '<main><p>Compare different <code>user.js</code>.</p>' + c + '</main>'
-       + '<a href="https://github.com/jm42/compare-user.js" class="r">'
+       //+ '<a href="https://github.com/jm42/compare-user.js" class="r">'
        //+ '<img src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">'
-       + '</a></body></html>'
+       //+ '</a></body></html>'
+       + '</body></html>'
 }
 
 function render_js(t) {
